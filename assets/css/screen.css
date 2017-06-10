@@ -75,9 +75,10 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #1c1c1e;
+  padding-top: 100px;
 }
 
-/* line 16, ../../sass/partials/_layout.scss */
+/* line 17, ../../sass/partials/_layout.scss */
 * {
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -89,17 +90,17 @@ body {
   transition-duration: 0.5s;
 }
 
-/* line 21, ../../sass/partials/_layout.scss */
+/* line 22, ../../sass/partials/_layout.scss */
 ::selection {
   background: #551a8b;
   color: #ffffff;
 }
 
-/* line 26, ../../sass/partials/_layout.scss */
+/* line 27, ../../sass/partials/_layout.scss */
 a {
   color: #ff00aa;
 }
-/* line 29, ../../sass/partials/_layout.scss */
+/* line 30, ../../sass/partials/_layout.scss */
 a:hover {
   color: #ff00aa;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
