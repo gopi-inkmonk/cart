@@ -1,0 +1,11 @@
+@import "colors";
+
+.btn-primary{
+  background: $secondary-color;
+  border-color: $secondary-color;
+
+  &:hover{
+    background: $secondary-darker-color;
+    border-color: $secondary-darker-color;
+  }
+}

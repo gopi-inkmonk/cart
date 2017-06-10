@@ -1,0 +1,79 @@
+@import "colors";
+
+.navbar{
+  background: $primary-color;
+  color: $lighter-color;
+
+  & .navbar-brand{
+    height: auto;
+
+    & > object{
+      width: 115px;
+      margin-bottom: -10px;
+
+      path,
+     circle,
+     polygon {
+        fill: $lighter-color;
+      }
+    }
+  }
+
+  & .toggle-menu{
+    padding: 15px;
+    display: inline-block;
+
+    & .fa-navicon{
+      color: $lighter-color;
+      font-size: 23px;
+    }
+  }
+
+  & .form-inline{
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+
+    & .input-group{
+      width: 100%;
+    }
+
+    & .form-control, & .btn{
+      height: 43px;
+    }
+  }
+
+  & .dropdown{
+    display: inline-block;
+
+    & button{
+      background: none;
+      border: none;
+      color: $lighter-color;
+      font-size: 16px;
+      outline: none;
+      padding: 18px 18px 19px;
+    }
+
+    & .dropdown-menu{
+      color: $dark-color;
+    }
+  }
+
+  & .optBar{
+    background: $primary-darker-color;
+    font-size: 12px;
+    padding: 7px 0;
+
+    & ul{
+      & li{
+        float: left;
+        margin-left: 15px;
+
+        & .fa{
+          margin: 0 3px;
+        }
+      }
+    }
+  }
+}

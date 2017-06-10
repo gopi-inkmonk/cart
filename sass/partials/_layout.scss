@@ -1,0 +1,34 @@
+@import "colors";
+@import "compass/css3/opacity";
+@import "compass/css3/transition";
+
+body{
+  background: $grey-color;
+  font: {
+    family:'Open Sans', sans-serif;
+    weight:normal;
+    size:14px;
+  }
+  line-height: 16px;
+  color: $dark-color;
+}
+
+*{
+  @include transition-property(all);
+  @include transition-duration(.5s);
+}
+
+::selection{
+  background: $primary-color;
+  color: $lighter-color;
+}
+
+a{
+  color: $secondary-color;
+
+  &:hover{
+    color: $secondary-color;
+    @include opacity(0.8);
+    text-decoration: underline;
+  }
+}

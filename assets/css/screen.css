@@ -1,0 +1,196 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../../sass/partials/_layout.scss */
+body {
+  background: #eef1f3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1c1c1e;
+}
+
+/* line 16, ../../sass/partials/_layout.scss */
+* {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/* line 21, ../../sass/partials/_layout.scss */
+::selection {
+  background: #551a8b;
+  color: #ffffff;
+}
+
+/* line 26, ../../sass/partials/_layout.scss */
+a {
+  color: #ff00aa;
+}
+/* line 29, ../../sass/partials/_layout.scss */
+a:hover {
+  color: #ff00aa;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* line 3, ../../sass/partials/_header.scss */
+.navbar {
+  background: #551a8b;
+  color: #ffffff;
+}
+/* line 7, ../../sass/partials/_header.scss */
+.navbar .navbar-brand {
+  height: auto;
+}
+/* line 10, ../../sass/partials/_header.scss */
+.navbar .navbar-brand > object {
+  width: 115px;
+  margin-bottom: -10px;
+}
+/* line 14, ../../sass/partials/_header.scss */
+.navbar .navbar-brand > object path,
+.navbar .navbar-brand > object circle,
+.navbar .navbar-brand > object polygon {
+  fill: #ffffff;
+}
+/* line 22, ../../sass/partials/_header.scss */
+.navbar .toggle-menu {
+  padding: 15px;
+  display: inline-block;
+}
+/* line 26, ../../sass/partials/_header.scss */
+.navbar .toggle-menu .fa-navicon {
+  color: #ffffff;
+  font-size: 23px;
+}
+/* line 32, ../../sass/partials/_header.scss */
+.navbar .form-inline {
+  padding: 5px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 37, ../../sass/partials/_header.scss */
+.navbar .form-inline .input-group {
+  width: 100%;
+}
+/* line 41, ../../sass/partials/_header.scss */
+.navbar .form-inline .form-control, .navbar .form-inline .btn {
+  height: 43px;
+}
+/* line 46, ../../sass/partials/_header.scss */
+.navbar .dropdown {
+  display: inline-block;
+}
+/* line 49, ../../sass/partials/_header.scss */
+.navbar .dropdown button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  padding: 18px 18px 19px;
+}
+/* line 58, ../../sass/partials/_header.scss */
+.navbar .dropdown .dropdown-menu {
+  color: #1c1c1e;
+}
+/* line 63, ../../sass/partials/_header.scss */
+.navbar .optBar {
+  background: #4f1683;
+  font-size: 12px;
+  padding: 7px 0;
+}
+/* line 69, ../../sass/partials/_header.scss */
+.navbar .optBar ul li {
+  float: left;
+  margin-left: 15px;
+}
+/* line 73, ../../sass/partials/_header.scss */
+.navbar .optBar ul li .fa {
+  margin: 0 3px;
+}
+
+/* line 3, ../../sass/partials/_components.scss */
+.btn-primary {
+  background: #ff00aa;
+  border-color: #ff00aa;
+}
+/* line 7, ../../sass/partials/_components.scss */
+.btn-primary:hover {
+  background: #e20097;
+  border-color: #e20097;
+}
