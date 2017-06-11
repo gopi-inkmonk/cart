@@ -1,6 +1,5 @@
 @import "colors";
-@import "compass/css3/opacity";
-@import "compass/css3/transition";
+@import "compass/css3";
 
 body{
   background: $grey-color;
@@ -31,5 +30,51 @@ a{
     color: $secondary-color;
     @include opacity(0.8);
     text-decoration: underline;
+  }
+}
+
+.productWrapper{
+  background: $lighter-color;
+  @include border-radius(3px);
+  display: inline-block;
+  width: 100%;
+  padding: 20px 20px 0;
+  margin-bottom: 25px;
+
+  & .thumbnail{
+    background: none;
+    border: none;
+
+    &:hover{
+      @include box-shadow(rgba(0, 0, 0, 0.1) 0px 10px 30px);
+
+      & .btn.btn-default.primary{
+        background: $secondary-darker-color;
+        border-color: $secondary-darker-color;
+        color: $lighter-color;
+      }
+    }
+  }
+}
+
+footer{
+  border-top:1px solid rgba($dark-color, 0.1);
+  padding: 25px 0;
+  margin-top: 50px;
+
+  & > .container{
+    & ul{
+      & li{
+        margin: 0 0 10px;
+      }
+    }
+
+    & > div.text-center{
+      border-top:1px solid rgba($dark-color, 0.1);
+      margin-top: 15px;
+      padding: 15px 0 0;
+      font-size: 12px;
+      color: rgba($dark-color, 0.3);
+    }
   }
 }
