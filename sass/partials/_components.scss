@@ -113,11 +113,7 @@ h5{
   cursor: pointer;
 
   &:hover{
-    background: $lighter-color;
-
-    & .fa{
-      color: $primary-color;
-    }
+    background: $primary-darker-color;
 
     & .float-menuContainer{
       display: block;
@@ -127,11 +123,57 @@ h5{
   & .float-menuContainer{
     position: absolute;
     left: 0;
-    top:51px;
+    top:53px;
     display: none;
 
     & .heroMenu{
       min-width: 230px;
+    }
+  }
+}
+
+.slide-menuContainer{
+  position: fixed;
+  top: 0;
+  left: -100%;
+  right: 100%;
+  bottom: 0;
+  overflow: auto;
+  @include opacity(0);
+  background: rgba($dark-color,0.98);
+
+  &.visible{
+    @include opacity(1);
+    left: 0;
+    right: 0;
+  }
+
+  & .heroMenu{
+    & .fa-close{
+      color: $primary-color;
+      padding: 15px;
+      font-size: 23px;
+    }
+    & > ul{
+      & > li{
+        &:hover{
+          & > .panel{
+            display: none;
+          }
+        }
+        & > .panel{
+          position: relative;
+          width: 100%;
+          left: 0;
+
+          & > ul{
+            & > li{
+              width: 100%;
+              float: none;
+            }
+          }
+        }
+      }
     }
   }
 }

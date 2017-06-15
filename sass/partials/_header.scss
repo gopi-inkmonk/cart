@@ -19,13 +19,18 @@
     }
   }
 
-  & .toggle-menu{
+  & .toggle-menu, & .slide-menu{
     padding: 15px;
     display: inline-block;
+    cursor: pointer;
 
-    & .fa-navicon{
+    & > .fa{
       color: $lighter-color;
       font-size: 23px;
+    }
+
+    &:hover{
+      background: $primary-darker-color;
     }
   }
 
@@ -57,6 +62,14 @@
 
     & .dropdown-menu{
       color: $dark-color;
+    }
+  }
+
+  &.visible-xs{
+    & .dropdown{
+      & button{
+        padding: 15px;
+      }
     }
   }
 
