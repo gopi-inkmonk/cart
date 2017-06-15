@@ -57,6 +57,28 @@ a{
   }
 }
 
+.navbar-fixed-top{
+  top: 0;
+
+  & .navbar-header{
+    & .toggle-menu{
+      @include opacity(0);
+      cursor: default;
+    }
+  }
+
+  &.scrolled{
+    top: -30px;
+
+    & .navbar-header{
+      & .toggle-menu{
+        @include opacity(1);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 footer{
   border-top:1px solid rgba($dark-color, 0.1);
   padding: 25px 0;

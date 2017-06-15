@@ -51,6 +51,7 @@
             & > li{
               display: inline-block;
               width: 33%;
+              float: left;
             }
           }
         }
@@ -104,5 +105,33 @@ h5{
     margin: 15px 0;
     background: $grey-color;
     display: inline-block;
+  }
+}
+
+.navbar-header .toggle-menu{
+  position: relative;
+  cursor: pointer;
+
+  &:hover{
+    background: $lighter-color;
+
+    & .fa{
+      color: $primary-color;
+    }
+
+    & .float-menuContainer{
+      display: block;
+    }
+  }
+
+  & .float-menuContainer{
+    position: absolute;
+    left: 0;
+    top:51px;
+    display: none;
+
+    & .heroMenu{
+      min-width: 230px;
+    }
   }
 }
