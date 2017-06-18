@@ -308,124 +308,132 @@ strong {
   font-weight: bold;
 }
 
-/* line 23, ../../sass/partials/_components.scss */
+/* line 24, ../../sass/partials/_components.scss */
+.reviewInfo a.fa-star {
+  font-size: 21px;
+}
+/* line 27, ../../sass/partials/_components.scss */
+.reviewInfo a.fa-star:hover {
+  color: #ff00aa;
+}
+/* line 31, ../../sass/partials/_components.scss */
 .reviewInfo .fa-star {
   color: #dce1e4;
 }
-/* line 26, ../../sass/partials/_components.scss */
+/* line 34, ../../sass/partials/_components.scss */
 .reviewInfo .fa-star.active {
   color: #ff00aa;
 }
 
-/* line 32, ../../sass/partials/_components.scss */
+/* line 40, ../../sass/partials/_components.scss */
 .inline {
   display: inline-block;
 }
 
-/* line 36, ../../sass/partials/_components.scss */
+/* line 44, ../../sass/partials/_components.scss */
 .reviewWrapper {
   margin-top: 25px;
 }
-/* line 39, ../../sass/partials/_components.scss */
+/* line 47, ../../sass/partials/_components.scss */
 .reviewWrapper .panel-title {
   margin-top: 10px;
 }
-/* line 43, ../../sass/partials/_components.scss */
+/* line 51, ../../sass/partials/_components.scss */
 .reviewWrapper .review {
   border-bottom: 1px solid #eef1f3;
   padding: 25px 0;
 }
-/* line 47, ../../sass/partials/_components.scss */
+/* line 55, ../../sass/partials/_components.scss */
 .reviewWrapper .review:first-child {
   padding-top: 0;
 }
-/* line 50, ../../sass/partials/_components.scss */
+/* line 58, ../../sass/partials/_components.scss */
 .reviewWrapper .review:last-child {
   border-bottom: none;
   padding-bottom: 0;
 }
-/* line 55, ../../sass/partials/_components.scss */
+/* line 63, ../../sass/partials/_components.scss */
 .reviewWrapper .review h3 {
   font-size: 17px;
   margin: 5px 0 15px;
 }
-/* line 59, ../../sass/partials/_components.scss */
+/* line 67, ../../sass/partials/_components.scss */
 .reviewWrapper .review h3 > span {
   font-size: 14px;
 }
 
-/* line 67, ../../sass/partials/_components.scss */
+/* line 75, ../../sass/partials/_components.scss */
 .productInfo .reviewInfo {
   margin: 0 0 15px;
 }
-/* line 70, ../../sass/partials/_components.scss */
+/* line 78, ../../sass/partials/_components.scss */
 .productInfo .reviewInfo a {
   display: inline-block;
   margin: 0 5px;
 }
-/* line 76, ../../sass/partials/_components.scss */
+/* line 84, ../../sass/partials/_components.scss */
 .productInfo .priceInfo {
   margin: 30px 0 20px;
   font-size: 16px;
 }
-/* line 80, ../../sass/partials/_components.scss */
+/* line 88, ../../sass/partials/_components.scss */
 .productInfo .priceInfo .priceVal {
   font-size: 40px;
   font-weight: bold;
 }
-/* line 87, ../../sass/partials/_components.scss */
+/* line 95, ../../sass/partials/_components.scss */
 .productInfo .panel-footer p {
   line-height: 18px;
   margin: 0;
 }
-/* line 93, ../../sass/partials/_components.scss */
+/* line 101, ../../sass/partials/_components.scss */
 .productInfo .btn {
   margin-right: 15px;
 }
-/* line 97, ../../sass/partials/_components.scss */
+/* line 105, ../../sass/partials/_components.scss */
 .productInfo p {
   margin: 0 0 15px;
 }
 
-/* line 102, ../../sass/partials/_components.scss */
+/* line 110, ../../sass/partials/_components.scss */
 .productDesContainer {
   font-size: 12px;
   color: rgba(28, 28, 30, 0.5);
 }
-/* line 106, ../../sass/partials/_components.scss */
+/* line 114, ../../sass/partials/_components.scss */
 .productDesContainer h3 {
   font-size: 15px;
   margin: 25px 0 10px;
 }
-/* line 110, ../../sass/partials/_components.scss */
+/* line 118, ../../sass/partials/_components.scss */
 .productDesContainer p {
   margin: 0 0 15px;
 }
-/* line 114, ../../sass/partials/_components.scss */
+/* line 122, ../../sass/partials/_components.scss */
 .productDesContainer ul {
   list-style: circle;
   margin: 0 0 0 25px;
 }
-/* line 118, ../../sass/partials/_components.scss */
+/* line 126, ../../sass/partials/_components.scss */
 .productDesContainer ul li {
   margin: 0 0 10px;
 }
 
-/* line 124, ../../sass/partials/_components.scss */
+/* line 132, ../../sass/partials/_components.scss */
 .clear {
   clear: both;
 }
 
-/* line 129, ../../sass/partials/_components.scss */
+/* line 137, ../../sass/partials/_components.scss */
 .heroMenu > ul {
   padding: 10px 0;
   border-bottom: 1px solid #eef1f3;
 }
-/* line 133, ../../sass/partials/_components.scss */
+/* line 141, ../../sass/partials/_components.scss */
 .heroMenu > ul > li {
   position: relative;
 }
-/* line 136, ../../sass/partials/_components.scss */
+/* line 144, ../../sass/partials/_components.scss */
 .heroMenu > ul > li a {
   padding: 10px 15px;
   display: inline-block;
@@ -433,17 +441,17 @@ strong {
   color: #1c1c1e;
   cursor: pointer;
 }
-/* line 143, ../../sass/partials/_components.scss */
+/* line 151, ../../sass/partials/_components.scss */
 .heroMenu > ul > li a:hover {
   background: #eef1f3;
   text-decoration: none;
 }
-/* line 150, ../../sass/partials/_components.scss */
+/* line 158, ../../sass/partials/_components.scss */
 .heroMenu > ul > li:hover > a {
   background: #eef1f3;
   text-decoration: none;
 }
-/* line 156, ../../sass/partials/_components.scss */
+/* line 164, ../../sass/partials/_components.scss */
 .heroMenu > ul > li > .panel {
   display: none;
   position: absolute;
@@ -453,35 +461,35 @@ strong {
   padding: 10px 0;
   width: 337%;
 }
-/* line 166, ../../sass/partials/_components.scss */
+/* line 174, ../../sass/partials/_components.scss */
 .heroMenu > ul > li > .panel > ul > li {
   display: inline-block;
   width: 33%;
   float: left;
 }
-/* line 175, ../../sass/partials/_components.scss */
+/* line 183, ../../sass/partials/_components.scss */
 .heroMenu > ul > li:hover > .panel {
   display: block;
 }
 
-/* line 183, ../../sass/partials/_components.scss */
+/* line 191, ../../sass/partials/_components.scss */
 .heroText {
   font-size: 32px;
   font-weight: lighter;
   line-height: 40px;
   padding: 40px 0;
 }
-/* line 189, ../../sass/partials/_components.scss */
+/* line 197, ../../sass/partials/_components.scss */
 .heroText strong {
   font-weight: bold;
 }
-/* line 192, ../../sass/partials/_components.scss */
+/* line 200, ../../sass/partials/_components.scss */
 .heroText a {
   margin-top: 20px;
   display: inline-block;
 }
 
-/* line 198, ../../sass/partials/_components.scss */
+/* line 206, ../../sass/partials/_components.scss */
 h5 {
   font-size: 13px;
   font-weight: bold;
@@ -492,18 +500,18 @@ h5 {
   margin: 15px 0;
 }
 
-/* line 208, ../../sass/partials/_components.scss */
+/* line 216, ../../sass/partials/_components.scss */
 .thumbnail h3 {
   margin: 5px 0;
 }
-/* line 211, ../../sass/partials/_components.scss */
+/* line 219, ../../sass/partials/_components.scss */
 .thumbnail .price {
   margin: 15px 0;
   display: inline-block;
   width: 100%;
   font-size: 21px;
 }
-/* line 217, ../../sass/partials/_components.scss */
+/* line 225, ../../sass/partials/_components.scss */
 .thumbnail .divider {
   width: 100%;
   height: 1px;
@@ -512,32 +520,32 @@ h5 {
   display: inline-block;
 }
 
-/* line 226, ../../sass/partials/_components.scss */
+/* line 234, ../../sass/partials/_components.scss */
 .navbar-header .toggle-menu {
   position: relative;
   cursor: pointer;
 }
-/* line 230, ../../sass/partials/_components.scss */
+/* line 238, ../../sass/partials/_components.scss */
 .navbar-header .toggle-menu:hover {
   background: #4f1683;
 }
-/* line 233, ../../sass/partials/_components.scss */
+/* line 241, ../../sass/partials/_components.scss */
 .navbar-header .toggle-menu:hover .float-menuContainer {
   display: block;
 }
-/* line 238, ../../sass/partials/_components.scss */
+/* line 246, ../../sass/partials/_components.scss */
 .navbar-header .toggle-menu .float-menuContainer {
   position: absolute;
   left: 0;
   top: 53px;
   display: none;
 }
-/* line 244, ../../sass/partials/_components.scss */
+/* line 252, ../../sass/partials/_components.scss */
 .navbar-header .toggle-menu .float-menuContainer .heroMenu {
   min-width: 230px;
 }
 
-/* line 250, ../../sass/partials/_components.scss */
+/* line 258, ../../sass/partials/_components.scss */
 .slide-menuContainer {
   position: fixed;
   top: 0;
@@ -549,30 +557,30 @@ h5 {
   opacity: 0;
   background: rgba(28, 28, 30, 0.98);
 }
-/* line 260, ../../sass/partials/_components.scss */
+/* line 268, ../../sass/partials/_components.scss */
 .slide-menuContainer.visible {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   left: 0;
   right: 0;
 }
-/* line 267, ../../sass/partials/_components.scss */
+/* line 275, ../../sass/partials/_components.scss */
 .slide-menuContainer .heroMenu .fa-close {
   color: #551a8b;
   padding: 15px;
   font-size: 23px;
 }
-/* line 275, ../../sass/partials/_components.scss */
+/* line 283, ../../sass/partials/_components.scss */
 .slide-menuContainer .heroMenu > ul > li:hover > .panel {
   display: none;
 }
-/* line 279, ../../sass/partials/_components.scss */
+/* line 287, ../../sass/partials/_components.scss */
 .slide-menuContainer .heroMenu > ul > li > .panel {
   position: relative;
   width: 100%;
   left: 0;
 }
-/* line 285, ../../sass/partials/_components.scss */
+/* line 293, ../../sass/partials/_components.scss */
 .slide-menuContainer .heroMenu > ul > li > .panel > ul > li {
   width: 100%;
   float: none;

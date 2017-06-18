@@ -20,6 +20,14 @@ strong{
 }
 
 .reviewInfo{
+
+  & a.fa-star{
+    font-size: 21px;
+    
+    &:hover{
+      color: $secondary-color;
+    }
+  }
   & .fa-star{
     color: $darkergrey-color;
 
@@ -35,7 +43,7 @@ strong{
 
 .reviewWrapper{
   margin-top: 25px;
-  
+
   & .panel-title{
     margin-top: 10px;
   }
