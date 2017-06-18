@@ -68,6 +68,11 @@ a{
     & .toggle-menu{
       @include opacity(0);
       cursor: default;
+
+      &.dontHide{
+        @include opacity(1);
+        cursor: pointer;
+      }
     }
   }
 
