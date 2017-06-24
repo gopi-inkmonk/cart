@@ -585,3 +585,47 @@ h5 {
   width: 100%;
   float: none;
 }
+
+/* line 304, ../../sass/partials/_components.scss */
+.productCart {
+  border-bottom: 1px solid #eef1f3;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/* line 309, ../../sass/partials/_components.scss */
+.productCart:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+/* line 314, ../../sass/partials/_components.scss */
+.productCart .media-left {
+  padding-right: 25px;
+}
+/* line 317, ../../sass/partials/_components.scss */
+.productCart h4 {
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+/* line 326, ../../sass/partials/_components.scss */
+.priceDetails dl dt {
+  text-align: left;
+}
+/* line 329, ../../sass/partials/_components.scss */
+.priceDetails dl dd {
+  margin-bottom: 15px;
+  text-align: right;
+}
+/* line 333, ../../sass/partials/_components.scss */
+.priceDetails dl dd .fa-rupee {
+  font-size: 85%;
+}
+/* line 338, ../../sass/partials/_components.scss */
+.priceDetails .total {
+  border-top: 1px solid #eef1f3;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: inherit;
+  padding: 15px 0 0;
+}
